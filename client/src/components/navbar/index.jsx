@@ -7,7 +7,7 @@ function Navbar() {
     Auth.logout();
   };
   return <>
-    <div class="header">
+    <div class="header d-flex justify-content-end">
       <div class="header_resize">
 
         <div>
