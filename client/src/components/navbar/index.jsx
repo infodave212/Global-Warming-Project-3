@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import "../../App.css"
 import Auth from '../../utils/auth';
 function Navbar() {
   const logout = (event) => {
@@ -7,10 +7,10 @@ function Navbar() {
     Auth.logout();
   };
   return <>
-    <div class="header d-flex justify-content-end">
-      <div class="header_resize">
+    <div class="header ">
+      <div class="header_resize ">
 
-        <div>
+        <div className='nav-link w-100 d-flex justify-content-right'> 
           {Auth.loggedIn() ? (
             <>
               <Link className="btn btn-lg btn-info m-2" to="/me">
