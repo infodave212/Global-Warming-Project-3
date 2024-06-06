@@ -16,13 +16,12 @@ The profile page displays a message informing the user they must be logged in to
 
 To reproduce the problem, follow these steps:
 
-1. Navigate to `26-Stu_Resolver-Context/Unsolved` from the command line.
 
-2. Run `npm install`, `npm run seed`, and `npm run develop`.
+1. Run `npm install`, `npm run seed`, and `npm run develop`.
 
-3. Open <localhost:3000/login> in the browser.
+2. Open <localhost:3000/login> in the browser.
 
-4. Log in with the following test credentials, or create your own user and some thoughts:
+3. Log in with the following test credentials, or create your own user and some thoughts:
 
     ```json
     {
@@ -31,9 +30,9 @@ To reproduce the problem, follow these steps:
     }
     ```
 
-5. Navigate to <localhost:3000/me>.
+4. Navigate to <localhost:3000/me>.
 
-6. The app does not display the thoughts from this user.
+5. The app does not display the thoughts from this user.
 
 ## Assets
 
@@ -43,17 +42,7 @@ The following image demonstrates the profile page's appearance and functionality
 
 ---
 
-## 💡 Hints
-
-* What is the difference between the server-side `QUERY_ME` and `QUERY_SINGLE_USER` query resolvers that would cause one to work and the other to not work?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* How could we implement authentication in a React app without using GraphQL?
-
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 David Oweh,University of Austin Boot Camp. Confidential and Proprietary. All Rights Reserved.
